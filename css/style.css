@@ -4,6 +4,32 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #f6f8f9;
+}
+
+/* CSS COMMON */
+
+.adjust {
+    width: 72%;
+    background-color: white;
+    margin: auto;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.title {
+
+}
+
+.flair {
+
+}
+
+.title:before {
+    content: '\23F7';
+}
+
 /* CSS HEADER */
 
 .banner h1 {
@@ -15,12 +41,77 @@
 }
 
 .banner {
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+
+.logo {
+    vertical-align: middle;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#logo {
+/* CSS MAIN */
+
+main {
+   
+    height: 100vh;
+}
+
+.actionbar {
+    margin-top: 40px;
+    
+}
+
+.buttons {
+    box-sizing: border-box;
+    height: 3.5vh;
+    padding-top: 16px;
+    
+}
+
+.todolist {
+    margin-top: 2px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    
+
+}
+
+.note {
+    list-style: none;
+    padding-left: ;
+}
+
+.check:before {
+    content: '\01F5F8' ;
+    color: green;
+    border: 1px solid green;
+    display: inline-block;
+    text-align: center;
     vertical-align: middle;
+    font-size: 14px;
+    line-height: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
+
+.cross:before {
+    content: '\2717' ;
+    color: red;
+    border: 1px solid red;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
 }
 

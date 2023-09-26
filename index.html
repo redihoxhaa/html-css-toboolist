@@ -14,13 +14,57 @@
     <!-- Logo e titolo webapp -->
     <header>
         <div class="banner">
-            <img src="img/Logo.png" alt="Logo Boolean" id="logo" >
+            <img src="img/Logo.png" alt="Logo Boolean" class="logo" >
             <h1>Toboolist</h1>
         </div>
     </header>
     <!-- /Logo e titolo webapp -->
 
-    <main></main>
+    <main>
+        <!-- Actionbar -->
+        <div class="actionbar adjust">
+            <!-- Pulsanti per le note -->
+            <section class="buttons">
+                <button id="add-task">Add Task</button>
+                <button id="add-section">Add Section</button>
+            </section>
+            <!-- Pulsanti per le note -->
+        </div>
+        <!-- /Actionbar -->
+
+        <!-- To do list -->
+        <div class="todolist adjust">
+            <div class="newtask">
+                <span class="title">New Task</span>
+                <ul class="newtask-list">
+                    <li class="note check">Quarterly Newsletter<span class="flair">Editorial</span></li>
+                </ul>
+            </div>
+
+            <div class="today">
+                <span class="title">New Task</span>
+                <ul class="today-list">
+                    <li class="note check">Recruiting blog post<span class="flair">Editorial</span></li>
+                    <li class="note check">Mobile app launch<span class="flair">Q1 Goals</span></li>
+                    <li class="note cross">Interview John H.<span class="flair">Recruiting</span></li>
+                    <li class="note check">Summit update to mobile storefronts<span class="flair">Mobile</span></li>
+                </ul>
+            </div>
+
+            <div class="upcoming">
+                <span class="title">New Task</span>
+                <ul class="upcoming-list">
+                    <li class="note cross">Schedule meeting with Alex</li>
+                    <li class="note check">Homepage refresh<span class="flair">Website</span></li>
+                    <li class="note check">Onboard new Sales team members<span class="flair">Sales</span></li>
+                    <li class="note check">Review editorial calendar<span class="flair">Editorial</span></li>
+                </ul>
+            </div>
+        </div>
+        <!-- To do list -->
+
+
+    </main>
     
 </body>
 </html>
