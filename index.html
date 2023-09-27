@@ -10,7 +10,6 @@
     <title>Toboolist</title>
 </head>
 <body>
-
     <!-- Logo e titolo webapp -->
     <header>
         <div class="banner">
@@ -25,8 +24,8 @@
         <div class="actionbar adjust">
             <!-- Pulsanti per le note -->
             <section class="buttons">
-                <button id="add-task">Add Task</button>
-                <button id="add-section">Add Section</button>
+                <button class="add-task buttstyle blue">Add Task</button>
+                <button class="add-section buttstyle">Add Section</button>
             </section>
             <!-- Pulsanti per le note -->
         </div>
@@ -34,37 +33,40 @@
 
         <!-- To do list -->
         <div class="todolist adjust">
-            <div class="newtask">
+            <!-- New task -->
+            <div class="newtask spacing">
                 <span class="title">New Task</span>
                 <ul class="newtask-list">
-                    <li class="note check">Quarterly Newsletter<span class="flair">Editorial</span></li>
+                    <li class="note">Quarterly Newsletter<span class="flair blue">Editorial</span></li>
                 </ul>
             </div>
+            <!-- /New task -->
 
-            <div class="today">
-                <span class="title">New Task</span>
+            <!-- Today -->
+            <div class="today spacing">
+                <span class="title">Today</span>
                 <ul class="today-list">
-                    <li class="note check">Recruiting blog post<span class="flair">Editorial</span></li>
-                    <li class="note check">Mobile app launch<span class="flair">Q1 Goals</span></li>
-                    <li class="note cross">Interview John H.<span class="flair">Recruiting</span></li>
-                    <li class="note check">Summit update to mobile storefronts<span class="flair">Mobile</span></li>
+                    <li class="note">Recruiting blog post<span class="flair blue">Editorial</span></li>
+                    <li class="note">Mobile app launch<span class="flair purple">Q1 Goals</span></li>
+                    <li class="note cross">Interview John H.<span class="flair green">Recruiting</span></li>
+                    <li class="note">Summit update to mobile storefronts<span class="flair orange">Mobile</span></li>
                 </ul>
             </div>
+            <!-- /Today -->
 
-            <div class="upcoming">
-                <span class="title">New Task</span>
+            <!-- Upcoming -->
+            <div class="upcoming spacing">
+                <span class="title">Upcoming</span>
                 <ul class="upcoming-list">
                     <li class="note cross">Schedule meeting with Alex</li>
-                    <li class="note check">Homepage refresh<span class="flair">Website</span></li>
-                    <li class="note check">Onboard new Sales team members<span class="flair">Sales</span></li>
-                    <li class="note check">Review editorial calendar<span class="flair">Editorial</span></li>
+                    <li class="note">Homepage refresh<span class="flair pink">Website</span></li>
+                    <li class="note">Onboard new Sales team members<span class="flair olive">Sales</span></li>
+                    <li class="note">Review editorial calendar<span class="flair blue">Editorial</span></li>
                 </ul>
             </div>
+            <!-- /Upcoming -->
         </div>
         <!-- To do list -->
-
-
     </main>
-    
 </body>
 </html>

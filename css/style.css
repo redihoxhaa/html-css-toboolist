@@ -18,26 +18,30 @@ body {
     box-sizing: border-box;
 }
 
-.title {
-
-}
-
-.flair {
-
+.spacing {
+    margin-top: 16px;
 }
 
 .title:before {
     content: '\23F7';
 }
 
+.buttstyle {
+    font-size: 11px;
+    font-weight: 500;
+	padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
 /* CSS HEADER */
 
 .banner h1 {
-    font-size: 50px;
+    font-size: 36px;
     display: inline-block;
     line-height: 50px;
     vertical-align: middle;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .banner {
@@ -56,39 +60,59 @@ body {
 /* CSS MAIN */
 
 main {
-   
-    height: 100vh;
+    color: rgb(78, 78, 78);
 }
+
+/* CSS BUTTONS */
 
 .actionbar {
     margin-top: 40px;
-    
+    border-radius: 4px;
 }
 
 .buttons {
     box-sizing: border-box;
-    height: 3.5vh;
+    padding-bottom: 8px;
     padding-top: 16px;
-    
 }
+
+.add-task {
+	color: white;
+	border: none;
+}
+
+.add-section {
+    color: lightgray;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+/* CSS TO DO LIST */
 
 .todolist {
     margin-top: 2px;
     box-sizing: border-box;
-    padding-top: 30px;
-    
+    padding-top: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    border-radius: 4px;
+}
 
+.title {
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .note {
     list-style: none;
-    padding-left: ;
+    line-height: 36px;
 }
 
-.check:before {
+.note:before {
     content: '\01F5F8' ;
-    color: green;
-    border: 1px solid green;
+    color: #64c0a8;
+    border: 1px solid #64c0a8;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -97,21 +121,48 @@ main {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-
+    margin-right: 10px;
 }
 
 .cross:before {
     content: '\2717' ;
     color: red;
     border: 1px solid red;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 14px;
-    line-height: 20px;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-
+    font-size: 12px;
+    line-height: 16px;
 }
 
+/* CSS FLAIRS */
+
+.flair {
+    color: white;
+    font-size: 10px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin-left: 5px;
+}
+
+.blue {
+    background-color: #45abe9;
+}
+
+.purple {
+    background-color: #9c72e4;
+}
+
+.green {
+    background-color: #64c0a8;
+}
+
+.orange {
+    background-color: #f29d33;
+}
+
+.pink {
+    background-color: #d863a0;
+}
+
+.olive {
+    background-color: #b0c926;
+}
