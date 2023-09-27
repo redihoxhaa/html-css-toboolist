@@ -78,7 +78,7 @@ main {
 
 .add-task {
 	color: white;
-	border: none;
+	border: 1px solid #45abe9;
 }
 
 .add-section {
@@ -110,25 +110,24 @@ main {
 }
 
 .note:before {
-    content: '\01F5F8' ;
+    content: '\2713' ;
     color: #64c0a8;
     border: 1px solid #64c0a8;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 18px;
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 10px;                    
 }
 
 .cross:before {
     content: '\2717' ;
     color: red;
     border: 1px solid red;
-    font-size: 12px;
     line-height: 16px;
 }
 
@@ -137,7 +136,6 @@ main {
 .flair {
     color: white;
     font-size: 10px;
-    background-color: red;
     border-radius: 10px;
     padding: 4px 10px;
     margin-left: 5px;
